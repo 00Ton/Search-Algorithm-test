@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <video autoplay muted loop>
+      <source src="assets/video (1080p).mp4" type="video/mp4" />
+      Il tuo browser non supporta il video.
+    </video>
+    <main>
+      <h1>KAPPA SEARCH</h1>
+      <p>Gotta find that job asap</p>
+
+      <div class="mainBlock">
+        <div class="jobT">
+          <label for="jobTitle">Titolo:</label>
+          <input
+            id="jobTitle"
+            type="text"
+            placeholder=" Il tuo titolo lavorativo"
+          />
+        </div>
+
+        <div class="jobLoc">
+          <label for="jobLocation">Posizione Geografica:</label>
+          <input id="jobLocation" type="text" placeholder=" La tua location" />
+        </div>
+      </div>
+      <div id="errorMessage"></div>
+      <div class="buttons">
+        <button type="submit" onclick="performSearch()">Cerca</button>
+        <button type="button" onclick="clearResults()">Clear</button>
+      </div>
+      <ul id="resultsList"></ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

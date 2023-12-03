@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;600&display=swap");
+
+* {
+  font-family: Sen, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  width: 700px;
+  /* background: url(assets/4950286_19873.jpg);
+  background-size: 100%;
+  background-position-y: -140px; */
+}
+
+main {
+  display: flex;
+  position: relative;
+  top: 300px;
+  right: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.3em;
+  font-family: Sen;
+  margin-left: 50px;
+}
+
+p {
+  font-weight: 100;
+  position: relative;
+  font-size: 1.1em;
+  bottom: 5px;
+  left: 15px;
+}
+
+div.mainBlock {
+  display: flex;
+  margin-top: 25px;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 20px;
+}
+
+.jobLoc {
+  padding: 10px;
+}
+
+.jobT {
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+  background: black;
+  font-size: 1em;
+  width: 100px;
+  height: 25px;
+  margin-left: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+ul {
+  margin-top: 30px;
+  list-style-type: disclosure-closed;
+  background-color: white;
+}
+
+td {
+  border: 1px solid black;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.9;
+}
+
+#errorMessage {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  display: none;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 20px;
+  width: 465px;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+}
