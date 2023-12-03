@@ -1,5 +1,7 @@
 # Search-Algorithm-test
 
+**DEPLOY** https://00ton.github.io/Search-Algorithm-test/
+
 /*
 PARTE 1: 
 Oggi analizzeremo un problema molto comune: realizzare algoritmi di ricerca.
